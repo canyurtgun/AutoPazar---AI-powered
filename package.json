@@ -1,0 +1,20 @@
+{
+  "name": "autopazar",
+  "version": "1.0.0",
+  "description": "Araç alım-satım platformu — AI destekli fiyat tahmini",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "db:migrate": "cd server && npx prisma migrate dev",
+    "db:seed": "cd server && npx prisma db seed",
+    "db:studio": "cd server && npx prisma studio",
+    "db:up": "docker-compose up -d postgres",
+    "db:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
