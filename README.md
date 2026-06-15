@@ -1,3 +1,4 @@
+# Mehmet Ali Güney - 24010501109
 # 🚗 AutoPazar — AI Destekli Araç Alım-Satım Platformu
 
 AutoPazar, kullanıcıların araç ilanı oluşturabileceği, güncel piyasa istatistiklerini takip edebileceği ve **Yapay Zeka Destekli Fiyat Tahmin Motoru** sayesinde araçlarının gerçek piyasa değerini analiz edebilecekleri modern, güvenli ve premium tasarımlı bir web uygulamasıdır.
